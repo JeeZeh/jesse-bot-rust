@@ -1,0 +1,14 @@
+#![feature(available_parallelism)]
+[package]
+name = "jesse-bot-rust"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serenity = "0.11"
+gcp_auth = "0.7.3"
+reqwest = "0.11.11"
+serde = "1.0.139"
+tokio = { version = "1.18.2", features = ["full"] }
